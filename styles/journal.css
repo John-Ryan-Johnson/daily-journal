@@ -1,0 +1,20 @@
+.dateContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.conceptsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.entryContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.moodContainer {
+  display: flex;
+  flex-direction: column;
+}
