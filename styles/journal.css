@@ -1,20 +1,129 @@
-.dateContainer {
-  display: flex;
-  flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(88, 88, 88);
+  color: orangered;
+  padding: 10px;
+  text-align: center;
+  font-size: 3.25em;
 }
 
 
-.conceptsContainer {
-  display: flex;
-  flex-direction: column;
+
+.subtitle{
+  margin: 20px 0 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(88, 88, 88);
+  color: orangered;
+  padding: 10px;
+  text-align: center;
+  font-size: 2.75em;
 }
 
-.entryContainer {
+.formContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(88, 88, 88);
+  width: 50%;
+  margin: 25px auto;
+  border-radius: 5px;
+  
+
 }
 
-.moodContainer {
+.newEntryHeader {
+  font-family: 'Open Sans', sans-serif;
+  color: whitesmoke;
+  padding: 10px 0 0 0;
+  font-size: 2em;
+}
+
+fieldset {
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
+  width: 95%;
+  align-items: center;
+  background-color: white;
+  border: .75px solid rgb(10, 10, 10);
+  border-radius: 5px;
+  
+}
+
+label, input, textarea, select {
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  width: 95%;
+  resize: none;
+  border-radius: 5px;
+}
+
+#entryText {
+  padding: 5px;
+  height: 140px;
+}
+
+input, select {
+  padding: 5px;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1.05em;
+}
+
+.entryLog {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 0 20px 15px;
+}
+
+.eachEntry {
+  flex-basis: 30%;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 250px;
+}
+
+.date {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1em;
+}
+
+.concepts {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3px;
+  width: 100%;
+  color: white;
+  font-size: 1.2em;  
+}
+
+.entry {
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 15px 5px 15px;
+  overflow-y: auto;
+}
+
+.mood {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  padding: 10px 15px;
 }
