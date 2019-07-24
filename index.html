@@ -10,10 +10,12 @@
 </head>
 
 <body>
-  <h1>Daily Journal</h1>
-  <form action="">
+    
+  <h1 class="title">Daily Journal</h1>
+  <form id="makeJournalEntry" action="" class="formContainer">
+    <h2 class="newEntryHeader">New Entry</h2>
     <fieldset class="dateContainer">
-      <label for="journalDate">Date of entry</label>
+      <label for="journalDate">Date of Entry</label>
       <input type="date" name="journalDate" id="journalDate">
     </fieldset>
     <fieldset class="conceptsContainer">
@@ -37,9 +39,12 @@
         <option value="panicked">Panicked</option>
       </select>
     </fieldset>
-    <button>Record Journal Entry</button>
+    <button class="btn">Record Journal Entry</button>
   </form>
+  <h2 id="logOfEntries" class="subtitle">Journal Entries</h2>
+    <article class="entryLog"></article>
   <script src="scripts/journal.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
