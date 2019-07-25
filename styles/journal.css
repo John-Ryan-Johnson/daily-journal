@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: green;
 }
 
 .title {
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(88, 88, 88);
-  color: orangered;
+  background-color: black;
+  color: green;
   padding: 10px;
   text-align: center;
   font-size: 3.25em;
@@ -22,9 +22,9 @@ body {
 .subtitle{
   margin: 20px 0 10px 0;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(88, 88, 88);
-  color: orangered;
-  padding: 10px;
+  background-color: black;
+  color: green;
+  padding: 4px;
   text-align: center;
   font-size: 2.75em;
 }
@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(88, 88, 88);
+  background-color: black;
   width: 50%;
   margin: 25px auto;
   border-radius: 5px;
@@ -44,7 +44,7 @@ body {
 
 .newEntryHeader {
   font-family: 'Open Sans', sans-serif;
-  color: whitesmoke;
+  color: green;
   padding: 10px 0 0 0;
   font-size: 2em;
 }
@@ -55,8 +55,8 @@ fieldset {
   margin-top: 15px;
   width: 95%;
   align-items: center;
-  background-color: white;
-  border: .75px solid rgb(10, 10, 10);
+  background-color: green;
+  border: 5px solid black;
   border-radius: 5px;
   
 }
@@ -72,10 +72,12 @@ label, input, textarea, select {
 #entryText {
   padding: 5px;
   height: 140px;
+  background-color: darkgray;
 }
 
 input, select {
   padding: 5px;
+  background-color: darkgray;
 }
 
 .btn {
@@ -85,6 +87,8 @@ input, select {
   border-radius: 5px;
   margin: 10px;
   font-size: 1.05em;
+  background-color: darkgray;
+  color: green;
 }
 
 .entryLog {
@@ -97,15 +101,15 @@ input, select {
 .eachEntry {
   flex-basis: 30%;
   margin: 10px;
-  background-color: white;
   border-radius: 10px;
   min-width: 250px;
+ 
 }
 
 .date {
   font-family: 'Open Sans', sans-serif;
-  color: white;
-  font-size: 1em;
+   font-size: 1em;
+   
 }
 
 .concepts {
